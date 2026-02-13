@@ -39,7 +39,6 @@ async function fetchStockProfile(symbol: string) {
  */
 export default function Home() {
   const [selectedStock, setSelectedStock] = useState<StockOption | null>(null);
-  const [selectedIndex, setSelectedIndex] = useState<string>('sp500');
   const [stockMetrics, setStockMetrics] = useState<any>(null);
   const [loadingMetrics, setLoadingMetrics] = useState(false);
 
