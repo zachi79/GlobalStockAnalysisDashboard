@@ -139,7 +139,6 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-slate-900 mb-6">Stock Selection</h2>
           <StockSelector 
             onStockSelected={handleStockSelected}
-            onIndexChanged={setSelectedIndex}
           />
         </div>
 

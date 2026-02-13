@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { MetricLabel } from './MetricLabel';
-import { FINANCIAL_METRICS, getMetricsByCategory } from '@/config/metrics';
+import { getMetricsByCategory } from '@/config/metrics';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 interface MetricValue {
